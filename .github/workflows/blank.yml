@@ -13,7 +13,7 @@ jobs:
       uses: azure/login@v1
       with:
           client-id: 8d570f27-d60f-4262-b0a2-4b774f95112e
-          tenant-id: ea757669-674b-44c1-bf87-bd0fd0880294
+          tenant-id: e2a4b012-36ad-45f2-8c5c-169f06c2f970
           subscription-id: ea757669-674b-44c1-bf87-bd0fd0880294
   
     - name: 'Run Azure CLI commands'
