@@ -21,6 +21,5 @@ jobs:
           az account show
           az group list
           pwd 
-          SERVER_APP_SECRET=$(az ad sp credential reset --id "8d570f27-d60f-4262-b0a2-4b774f95112e"  --query password -o tsv --years 10)
-          echo $SERVER_APP_SECRET|base64 -w0|base64 -w0
+          az ad app create --display-name "app34kjlk4j2" --identifier-uris "api://dsfljfsd/324324324" --query appId -o tsv
           
